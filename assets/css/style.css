@@ -144,9 +144,9 @@ body footer h2 {
 /* I wanted to use a media query to adjust the header links when the page got smaller, but it wouldnt work and I couldnt figure out why */
 
 
-/* @media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) {
     header div {
         font-size: 20px;
     }
-} */
+}
 
