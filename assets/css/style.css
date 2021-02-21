@@ -19,7 +19,6 @@ body {
 
 /* creates an all around padding of 20px and changes the background to blue, this creates the header area. creates and ordered list of acceptable fonts. text color white. */
 header {
-    
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -28,34 +27,33 @@ header {
 
 /* places h1 (and also header div ul li) instde of the header area. large font. */
 header h1 {
-    
     display: inline-block;
     font-size: 48px;
 }
 
 header span {
-   
     color: #d9dcd6;
 }
 
 /* creates padding space for header links. aligns right. */
 header div {
-    
     padding-top: 15px;
     padding-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
 }
+
 /* makes list not display as a list usually does */
 header div ul {
     list-style-type: none;
+    display: flex;
+    flex: 1 3 auto;
 }
 
 header div ul li {
     display: inline-block;
-    
-    
+    flex: 1 2 auto;
     margin-left: 25px;
 }
 
@@ -144,8 +142,11 @@ body footer h2 {
 }
 
 /* I wanted to use a media query to adjust the header links when the page got smaller, but it wouldnt work and I couldnt figure out why */
-/* @media screen and (max-width: 600px) {
-    .header div {
-        font-size: 15px;
+
+
+/* @media screen and (min-width: 600px) {
+    header div {
+        font-size: 20px;
     }
 } */
+
