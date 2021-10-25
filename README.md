@@ -3,6 +3,7 @@ MIT - ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(https
 <!-- Original deployment date: February 20th, 2021 -->
 
 ## Table of Contents:
+- [This week's concepts](#this-weeks-concepts)
 - [Tech used](#tech-used)
 - [Project description](#project-description)
 - [Usage instructions](#usage-instructions)
@@ -15,21 +16,26 @@ MIT - ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(https
 
 ### About This Project
 
+* # This weeks concepts:
+  1. Code refactoring
+  2. Media queries
+
 * # Tech used:
   1. HTML
   2. CSS
 
 * # Project description:
-  We were tasked to refactor code to a site using HTML and CSS. Our goal was to de-clutter the code and remove unnecissary elements and styles, while keeping the overall structure of the site they provided.
+  Given pre-made, messy front end code, I refactored the page to display the same visually, while following better practices for HTML and CSS.
 
 * # Usage instructions
   "N/A"
 
 * # Project installation
-  1. Visit the deployment link
+  1. Visit the deployed page
   2. Enjoy.
      
 * # Additional comments
+(Feb/20/21)
   - I added a reset.css file to run before anything, and even thought it altered the look of the page slightly I thought it would be best to just include it to be consistent.
 
   - I wanted to add a media query so that the children in the "header div" will change the text to a smaller size when screen reached bellow 600px, however for the life of me I couldnt figure out what was stopping it from working. It is commented out on the bottom of style.css.
