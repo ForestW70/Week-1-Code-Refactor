@@ -62,5 +62,5 @@ MIT - ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(https
   - ![Bottom of the page](.assets/images/application-screenshot-bottom)
 
 * Links:
-  - [Repo page](https://github.com/ForestW70/hw1coderefactor)
-  - [Deployed page](https://forestw70.github.io/hw1coderefactor/)
+  - [Repo page](https://github.com/ForestW70/Week-1-Code-Refactor)
+  - [Deployed page](https://forestw70.github.io/Week-1-Code-Refactor/)
